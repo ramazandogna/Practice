@@ -11,7 +11,7 @@ export default function Debounce() {
   }, [debouncedValue]);
 
   return (
-    <main className="flex flex-col items-center justify-center fixed h-100vh w-100vw inset-0 gap-4">
+    <main className="flex flex-col items-center justify-center inset-0 gap-4">
       <input
         type="text"
         placeholder="Type something..."
@@ -21,6 +21,7 @@ export default function Debounce() {
         className="border border-gray-300 p-2 rounded-md w-64"
         value={searchTerm}
       />
+      <p className="text-gray-600 text-[12px]">delay value 500ms </p>
       <p className="text-gray-600">Debounced Value: {debouncedValue}</p>
     </main>
   );
