@@ -19,6 +19,9 @@ export default function SideBar() {
       <li>
         <Link href={"/questions/two-sum"}>#3 Two Sum - Jan 8 2026</Link>
       </li>
+      <li>
+        <Link href={"/questions/add-two-numbers"}>#4 Add Two Numbers - Jan 20 2026</Link>
+      </li>
     </ul>
   );
 }
